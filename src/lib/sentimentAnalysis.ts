@@ -180,10 +180,10 @@ export const getEmotionDescription = (emotion: EmotionType): string => {
   const descriptions: Record<EmotionType, string> = {
     joy: 'Your expression reflects happiness and contentment. Art created from joy often features warm colors and flowing patterns.',
     sadness: 'Your words convey a sense of sadness. Art from this emotion often features blue tones and can be reflective and meaningful.',
-    anger: 'There's a sense of frustration in your expression. Art created from anger can be bold and dynamic with strong lines.',
+    anger: 'There\'s a sense of frustration in your expression. Art created from anger can be bold and dynamic with strong lines.',
     fear: 'Your words suggest anxiety or concern. Art created from fear often has contrast and can help process complex feelings.',
     neutral: 'Your expression seems balanced and neutral. This creates art that is harmonious and centered.',
-    calm: 'There's a peaceful quality to your expression. Calm emotional states create art with soothing patterns and gentle transitions.'
+    calm: 'There\'s a peaceful quality to your expression. Calm emotional states create art with soothing patterns and gentle transitions.'
   };
   
   return descriptions[emotion] || descriptions.neutral;
