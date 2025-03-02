@@ -64,12 +64,12 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				art: {
-					calm: '#E0F2F1',
-					joy: '#FFF8E1',
-					sadness: '#E1F5FE',
-					anger: '#FFEBEE',
-					fear: '#F3E5F5',
-					neutral: '#F5F5F5'
+					calm: '#E6F7D9',     // Mint green
+					joy: '#FFF8E1',      // Soft yellow
+					sadness: '#F3E5F5',  // Lavender
+					anger: '#FFEBEE',    // Light red
+					fear: '#F3E5F5',     // Light purple
+					neutral: '#F5F5F5'   // Light gray
 				}
 			},
 			borderRadius: {
@@ -122,7 +122,7 @@ export default {
 			},
 			fontFamily: {
 				sans: ['Inter', 'system-ui', 'sans-serif'],
-				serif: ['Playfair Display', 'Georgia', 'serif'],
+				serif: ['Inter', 'sans-serif'],  // Changed to match font-sans for consistency
 				mono: ['IBM Plex Mono', 'monospace']
 			}
 		}

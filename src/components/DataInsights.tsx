@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, ResponsiveContainer, PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
 import { getEmotionalTrendsData } from '@/lib/sentimentAnalysis';
@@ -9,7 +8,7 @@ const DataInsights = () => {
   // Colors for the emotion categories
   const EMOTION_COLORS = {
     Joy: '#FFC107',
-    Sadness: '#2196F3',
+    Sadness: '#9C27B0',
     Anger: '#F44336',
     Fear: '#9C27B0',
     Neutral: '#9E9E9E',
@@ -39,7 +38,7 @@ const DataInsights = () => {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl font-serif mb-8 text-center">Data Insights</h2>
+        <h2 className="text-3xl mb-8 text-center">Data Insights</h2>
         
         <div className="glass-card p-6 rounded-2xl mb-10">
           <h3 className="text-xl font-medium mb-6">Emotion Distribution in Dataset</h3>
